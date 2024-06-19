@@ -10,10 +10,17 @@
 
 </header>
 <nav>
-
+    <a href="#LU01">LU01</a>
+    <a href="#LU02">LU02</a>
+    <a href="#LU03">LU03</a>
+    <a href="#LU04">LU04</a>
+    <a href="#LU05">LU05</a>
+    <a href="#LU06">LU06</a>
+    <a href="#LU07">LU07</a>
+    <a href="#LU08">LU08</a>
 </nav>
 <h1>Zusammenfassung Modul 293</h1>
-<article>
+<article id="LU01">
     <h2>LU01</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -38,7 +45,7 @@
         </pre>
     </section>
 </article>
-<article>
+<article id="LU02">
     <h2>LU02</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -94,7 +101,7 @@
         </pre>
     </section>
 </article>
-<article>
+<article id="LU03">
     <h2>LU03</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -153,7 +160,7 @@
         </pre>
     </section>
 </article>
-<article>
+<article id="LU04">
     <h2>LU04</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -194,7 +201,7 @@
         </pre>
     </section>
 </article>
-<article>
+<article id="LU05">
     <h2>LU05</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -237,7 +244,7 @@
         </pre>
     </section>
 </article>
-<article>
+<article id="LU06">
     <h2>LU06</h2>
     <section>
         <h3>Zusammenfassung</h3>
@@ -277,8 +284,103 @@
         </pre>
     </section>
 </article>
-<footer>
+<article id="LU07">
+    <h2>Lu07</h2>
+    <section>
+        <h3>Zusammenfassung</h3>
+        <p>
+            In LU07 haben wir uns erweitere Formularelemente wie z.B. select und
+            datalist angeschaut.
+        </p>
+    </section>
+    <section>
+        <h3>Codebeispiel</h3>
+        <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang='de'&gt;
+    &lt;head&gt;
+      &lt;meta charset='UTF-8'&gt;
+      &lt;title&gt;Hotelzimmer-Buchungssystem&lt;/title&gt;
 
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;Hotelzimmer-Buchungssystem&lt;/h1&gt;
+
+    &lt;form action='https://it.bzz.ch/demo/formdata/index.php' method='post'&gt;
+      &lt;!-- Zimmertypen --&gt;
+      &lt;fieldset&gt;
+        &lt;legend&gt;Zimmertyp&lt;/legend&gt;
+        &lt;select id='zimmertyp' name='Zimmertyp[]' multiple required&gt;
+          &lt;option value='einzelzimmer'&gt;Einzelzimmer&lt;/option&gt;
+          &lt;option value='doppelzimmer'&gt;Doppelzimmer&lt;/option&gt;
+          &lt;option value='suite'&gt;Suite&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/fieldset&gt;
+
+      &lt;!-- Zusatzleistungen --&gt;
+      &lt;fieldset&gt;
+        &lt;legend&gt;Zusatzleistungen&lt;/legend&gt;
+        &lt;input type='checkbox' id='fruehstueck' name='zusatzleistungen[]' value='fruehstueck'&gt;
+        &lt;label for='fruehstueck'&gt;Frühstück&lt;/label&gt;&lt;br&gt;
+        &lt;input type='checkbox' id='transfer' name='zusatzleistungen[]' value='transfer'&gt;
+        &lt;label for='transfer'&gt;Flughafentransfer&lt;/label&gt;&lt;br&gt;
+        &lt;input type='checkbox' id='spa' name='zusatzleistungen[]' value='spa'&gt;
+        &lt;label for='spa'&gt;Spa-Zugang&lt;/label&gt;
+      &lt;/fieldset&gt;
+
+      &lt;!-- Submit Button --&gt;
+      &lt;input type='submit' value='Buchen'&gt;
+    &lt;/form&gt;
+
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+        </pre>
+    </section>
+</article>
+<article id="LU08">
+    <h2>LU08</h2>
+    <section>
+        <h3>Zusammenfassung</h3>
+        <p>
+            In LU08 haben wir uns näher mit dem nav Element auseinandergesetzt.
+        </p>
+    </section>
+    <section>
+        <h3>Codebeispiel</h3>
+        <pre>
+&lt;nav&gt;
+  &lt;a href="#article1"&gt;Artikel 1&lt;/a&gt;
+  &lt;a href="#article2"&gt;Artikel 2&lt;/a&gt;
+  &lt;a href="#article3"&gt;Artikel 3&lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;article id="article1"&gt;
+  &lt;!-- Artikel 1 Inhalt hier --&gt;
+&lt;/article&gt;
+
+&lt;article id="article2"&gt;
+  &lt;!-- Artikel 2 Inhalt hier --&gt;
+&lt;/article&gt;
+
+&lt;article id="article3"&gt;
+  &lt;!-- Artikel 3 Inhalt hier --&gt;
+&lt;/article&gt;
+        </pre>
+    </section>
+</article>
+<footer>
+    <nav>
+        <a href="#LU01">LU01</a>
+        <a href="#LU02">LU02</a>
+        <a href="#LU03">LU03</a>
+        <a href="#LU04">LU04</a>
+        <a href="#LU05">LU05</a>
+        <a href="#LU06">LU06</a>
+        <a href="#LU07">LU07</a>
+        <a href="#LU08">LU08</a>
+    </nav>
 </footer>
 </body>
 </html>
