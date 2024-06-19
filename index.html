@@ -106,7 +106,7 @@
     <section>
         <h3>Codebeispiel</h3>
         <pre>
-                &lt;!DOCTYPE html&gt;
+    &lt;!DOCTYPE html&gt;
     &lt;html lang='de'&gt;
       &lt;head&gt;
         &lt;meta charset='UTF-8'&gt;
@@ -150,6 +150,130 @@
 
       &lt;/body&gt;
     &lt;/html&gt;
+        </pre>
+    </section>
+</article>
+<article>
+    <h2>LU04</h2>
+    <section>
+        <h3>Zusammenfassung</h3>
+        <p>
+            In LU04 haben wir uns mit dem Codingstyle für HTML beschäftigt. Dort
+            haben wir wichtige befehle wie ctrl + alt + l kennengelernt.
+        </p>
+    </section>
+    <section>
+        <h3>Codebeispiel</h3>
+        <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="de"&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Gleitschirmfliegen - Tipps und Ausrüstung&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;Gleitschirmfliegen - Einsteigertipps und Ausrüstung&lt;/h1&gt;
+        &lt;h2&gt;Einführung ins Gleitschirmfliegen&lt;/h2&gt;
+        &lt;p&gt;Gleitschirmfliegen ist ein beliebter Luftsport, bei dem der Pilot mit einem Gleitschirm durch die Lüfte gleitet. Es erfordert Übung und eine spezielle Ausrüstung, um sicher fliegen zu können.&lt;/p&gt;
+        &lt;h2&gt;Ausrüstung&lt;/h2&gt;
+        &lt;p&gt;Um Gleitschirmfliegen zu können, benötigen Sie eine Grundausstattung. Diese umfasst in der Regel einen Gleitschirm, einen Gurtzeug und einen Helm. Zusätzlich empfiehlt sich der Kauf eines Notschirms, einer Funkanlage und eines GPS-Geräts.&lt;/p&gt;
+        &lt;h2&gt;Tipps für Anfänger&lt;/h2&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Wählen Sie einen geeigneten Startplatz&lt;/li&gt;
+          &lt;li&gt;Üben Sie das Starten und Landen&lt;/li&gt;
+          &lt;li&gt;Lernen Sie die Wetterbedingungen kennen&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;h3&gt;Beliebte Fluggebiete&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Österreich&lt;/li&gt;
+          &lt;li&gt;Schweiz&lt;/li&gt;
+          &lt;li&gt;Deutschland&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+        </pre>
+    </section>
+</article>
+<article>
+    <h2>LU05</h2>
+    <section>
+        <h3>Zusammenfassung</h3>
+        <p>
+            In LU05 haben wir uns das Verlinken von Medien und anderen Webseiten
+            angeschaut.
+        </p>
+    </section>
+    <section>
+        <h3>Codebeispiel</h3>
+        <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="de"&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;LU05.A01 - Pfade&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;main&gt;
+          &lt;div&gt;
+            &lt;img src="./img/image01.png" width="487" alt="Hello World"/&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;audio src="./audio/song01.mp3" controls&gt;&lt;/audio&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;img src="../image02.png" height="372" alt="HelloWorld.html"/&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;img src="./image03.png" alt="Blockly"/&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/PhTp17k5hFY" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen&gt;&lt;/iframe&gt;
+          &lt;/div&gt;
+        &lt;/main&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+        </pre>
+    </section>
+</article>
+<article>
+    <h2>LU06</h2>
+    <section>
+        <h3>Zusammenfassung</h3>
+        <p>
+            In LU06 haben wir uns Formulare und dessen Elemente angeschaut.
+        </p>
+    </section>
+    <section>
+        <h3>Codebeispiel</h3>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="de"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;LU06.A02 - Buch&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action="https://it.bzz.ch/demo/formdata/index.php" method="post"&gt;
+    &lt;label for="buchtitel"&gt;Buchtitel&lt;/label&gt;
+    &lt;input id="buchtitel" name="buchtitel" type="text" minlength="2"
+           maxlength="30" required/&gt;
+    &lt;label for="autoren"&gt;Autoren&lt;/label&gt;
+    &lt;input id="autoren" name="autoren" type="text" minlength="5"
+           maxlength="40"/&gt;
+    &lt;label for="preis"&gt;Preis&lt;/label&gt;
+    &lt;input id="preis" name="preis" type="number" min="0.05" max="99.95"
+           step="any"/&gt;
+    &lt;label for="erscheinungsdatum"&gt;Erscheinungsdatum&lt;/label&gt;
+    &lt;input id="erscheinungsdatum" name="erscheinungsdatum" type="date"/&gt;
+    &lt;label for="auflage"&gt;Auflage&lt;/label&gt;
+    &lt;input id="auflage" name="auflage" type="range" min="1" max="9"/&gt;
+    &lt;button type="submit"&gt;Absenden&lt;/button&gt;
+    &lt;button type="reset"&gt;Zurücksetzen&lt;/button&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
         </pre>
     </section>
 </article>
